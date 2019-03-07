@@ -61,7 +61,7 @@ class SignUp extends Component {
           name="password"
           value={password}
           type="password"
-          placeholder="Password"
+          placeholder="Password(Minimum 6 characters)"
           onChange={this.handleChange}
         />
         <label htmlFor="password_confirmation">Confirm Password</label>
